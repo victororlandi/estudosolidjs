@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 60px;
+  background-color: rgb(211, 224, 231);
+}
+
+.btn {
+  background-color: rgb(108, 4, 143);
+  color: rgb(255,255,255);
+  margin: 10px 0;
+  display: inline-block;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(108,4,143);
+}
+
