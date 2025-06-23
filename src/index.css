@@ -18,3 +18,38 @@ body {
   border-color: rgb(108,4,143);
 }
 
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(1, 16, 104);
+  padding: 0 10px;
+  color: rgb(255,255,255);
+}
+
+.menu h1{
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(204, 154, 221)
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(1, 16, 104);
+  color: rgb(255,255,255);
+}
+
+.menu ul li{
+  padding: 10px;
+}
+
+.menu ul li :hover{
+  background-color: rgb(211, 224, 231);
+  padding: 10px 0;
+  color: rgb(190, 2, 140);
+}
