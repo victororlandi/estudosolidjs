@@ -6,17 +6,7 @@ function App() {
   return (
     <div class="container m-auto">
 
-        <Menu class="menu">
-            <h1>Blabla Speak</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Países</a></li>
-                <li><a href="#">Professores</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
-        </Menu>
-
+        <Menu/>
 
         <img class="rounded-md" src={banner} alt="banner" width="auto" height="200px" />
 
